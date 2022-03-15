@@ -1,0 +1,17 @@
+{
+  "name": "act-issue",
+  "version": "1.0.0",
+  "description": "act-issue",
+  "private": true,
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:robertkowalski/act-issue.git"
+  },
+  "author": "Robert Kowalski",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}

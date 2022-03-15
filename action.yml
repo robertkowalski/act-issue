@@ -1,0 +1,10 @@
+name: "Demo"
+description: "shows an issue with act"
+inputs:
+  environment:
+    description: The environment, should be "production" or "preview"
+    required: true
+
+runs:
+  using: "node12"
+  main: "index.js"
