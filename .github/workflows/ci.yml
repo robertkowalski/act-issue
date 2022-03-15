@@ -13,4 +13,4 @@ jobs:
 
       - uses: robertkowalski/act-issue@main
         with:
-          environment: preview
+          env: preview

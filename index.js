@@ -3,11 +3,11 @@
 const core = require("@actions/core");
 
 async function main() {
-  const environment = core.getInput("environment", {
+  const environment = core.getInput("env", {
     required: true,
   });
 
-  core.setOutput("environment", environment);
+  core.setOutput("env", env);
   return environment;
 }
 

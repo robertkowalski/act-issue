@@ -1,7 +1,7 @@
 name: "Demo"
 description: "shows an issue with act"
 inputs:
-  environment:
+  env:
     description: The environment, should be "production" or "preview"
     required: true
 
