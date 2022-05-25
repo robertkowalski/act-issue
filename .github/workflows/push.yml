@@ -6,7 +6,9 @@ jobs:
   label:
     runs-on: ubuntu-latest
     steps:
-      - run: gh issue edit $URL --add-label "$(date)"
+      - run: |
+          gh issue edit $URL --add-label 1
+          gh issue edit $URL --remove-label 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           URL: https://github.com/robertkowalski/act-issue/issues/1
