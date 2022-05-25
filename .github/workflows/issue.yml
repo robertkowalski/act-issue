@@ -1,0 +1,9 @@
+name: Deploy app
+
+on: [issue]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "updated workflow"

@@ -1,0 +1,11 @@
+name: Deploy app
+
+on: [push]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh issue edit $URL --add-label "$(date)"
+        env:
+          URL: https://github.com/robertkowalski/act-issue/issues/1
