@@ -1,6 +1,6 @@
 name: Deploy app
 
-on: [issue]
+on: [issues]
 
 jobs:
   label:
